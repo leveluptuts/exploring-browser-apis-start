@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style-filesystem.css" />
+  </head>
+  <body>
+    <h1>File System Part 2</h1>
+    <h2>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API"
+        >MDN File System</a
+      >
+    </h2>
+    <div class="card">
+      <button id="open">Open Directory</button>
+      <button id="home" disabled>Go Home</button>
+      <h4>Open File Data</h4>
+      <p>
+        <label>File Type <input type="text" readonly id="type" /></label>
+        <label>File Size <input type="text" readonly id="size" /></label>
+      </p>
+      <ul id="container"></ul>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

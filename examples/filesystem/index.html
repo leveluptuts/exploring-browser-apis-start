@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File System Part 1</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style-filesystem.css" />
+  </head>
+  <body>
+    <h1>File System 101</h1>
+    <h2>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API"
+        >MDN File System</a
+      >
+    </h2>
+    <div class="card">
+      <button id="open">Open Svg</button>
+      <button disabled id="save">Save Svg</button>
+      <textarea
+        id="editor"
+        rows="20"
+        placeholder="Upload SVG"
+        disabled
+      ></textarea>
+    </div>
+    <div id="img-container"></div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

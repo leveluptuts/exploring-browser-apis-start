@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1>Advanced Speech Synthesis</h1>
+    <h2>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis"
+        >MDN Speech Synthesis API</a
+      >
+    </h2>
+
+    <div class="card">
+      <textarea id="speak-text" cols="30" rows="10">
+Level Up Tutorials is pretty rad.
+	</textarea
+      >
+      <div class="row">
+        <label
+          >Speed
+          <input type="number" step="0.1" value="1" id="speed" />
+        </label>
+        <br />
+        <label>
+          Pitch
+          <input type="number" step="0.1" value="1" id="pitch" />
+        </label>
+        <select id="voice"></select>
+      </div>
+      <div class="row">
+        <button id="speak">▶️ Speak Text</button>
+        <button id="stop">Stop Speak</button>
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

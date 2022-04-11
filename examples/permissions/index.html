@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Clipboard API</h1>
+    <h2>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API"
+        >MDN Permissions API</a
+      >
+    </h2>
+    <h2>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#api_permissions"
+        >Permissions List</a
+      >
+    </h2>
+    <p>
+      Revoke permissions has been revoked (deprecated and not recommended to be
+      used).
+    </p>
+
+    <div class="card">
+      <button id="get-permissions">Ask For Paste Permissions</button>
+      <div class="row">
+        <p id="status"></p>
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Clipboard</title>
+  </head>
+  <body>
+    <h1>Clipboard API</h1>
+    <h2>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API"
+        >MDN Clipboard</a
+      >
+    </h2>
+    <p>Uses the "clipboard-read" and/or "clipboard-write" permissions.</p>
+    <div class="card">
+      <div class="row">
+        <input id="copy-input" type="text" />
+        <button id="copy">Copy</button>
+      </div>
+      <div class="row">
+        <input id="paste-input" type="text" />
+        <button id="paste">Paste</button>
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

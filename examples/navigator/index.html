@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Navigator & User Agent</h1>
+    <h2>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator"
+        >MDN Navigator</a
+      >
+    </h2>
+    <div class="card">
+      <h2>Navigator</h2>
+      <p>
+        Interface for the state and identity of the user agent or what browser
+        is being used. This is available on the global object
+        <code>window</code> or just simply <code>navigator</code>.
+      </p>
+
+      <h2>User Agent</h2>
+      <p>
+        The application that remotely accesses a different computer or server
+        over the network. ie - The browser that is running or loading the
+        website
+      </p>
+      <p>
+        Your computer (the client) is connecting to a website (the server) via
+        the User Agent. This is accessed via navigator.userAgent and includes
+        application name and version, host operating system
+      </p>
+
+      <h2>Why does Chrome, Edge, and Others say Mozilla</h2>
+      <p>
+        Mozilla released as Netscape, codename of Mozilla as Mosaic Killer. IE
+        Released and started User-Agent with Mozilla in order to use Frames
+        feature that was not supported by other browsers but supported by IE and
+        Netscape. Chrome and others started with Mozilla like the previous
+        browsers had before and now say Mozilla, Chrome, Safari making
+        user-agent testing problematic.
+      </p>
+
+      <h3>Further Reading</h3>
+      <ul>
+        <li>
+          <a
+            href="https://webaim.org/blog/user-agent-string-history/"
+            target="_blank"
+            >User Agent String History</a
+          >
+        </li>
+        <li>
+          <a href="http://www.useragentstring.com/">User Agent String</a>
+        </li>
+        <li>
+          <a href="https://css-tricks.com/browser-detection-is-bad/"
+            >Browser Detection is Bad</a
+          >
+        </li>
+      </ul>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

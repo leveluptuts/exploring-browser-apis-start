@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Speech Synthesis</h1>
+    <h2>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis"
+        >MDN Speech Synthesis API</a
+      >
+    </h2>
+
+    <div class="card">
+      <textarea id="speak-text" cols="30" rows="10">
+Level Up Tutorials is pretty rad.
+	</textarea
+      >
+      <div class="row">
+        <button id="speak">▶️ Speak Text</button>
+        <button id="stop">Stop Speak</button>
+        <p id="status"></p>
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
