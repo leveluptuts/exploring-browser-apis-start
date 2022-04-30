@@ -49,6 +49,13 @@ li {
 .row {
   margin-bottom: 1rem;
 }
+.back {
+  color: #2c3e50;
+  font-size: 1.5rem;
+}
+.back:hover {
+  text-decoration: none;
+}
 
 button {
   border-radius: 16px;
